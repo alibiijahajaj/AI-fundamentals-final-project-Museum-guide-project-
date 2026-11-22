@@ -27,7 +27,6 @@ museum_guide/
   mdp.py                 value iteration + belief-based decision
   planner.py             integration: Bayes -> MDP -> A*
 tests/test_all.py        unit + API tests
-docs/                    report, AI usage declaration, team statement, slides and defense plan
 ```
 
 ## Using the app
@@ -47,6 +46,3 @@ Leg 3: exhibit C (Visit Later), 14 steps
 
 ## Assumptions
 All probabilities, rewards and transitions are hand-defined (see `bayes.py` and `mdp.py`); no real sensor data is used.
-
-## License / AI usage
-See `docs/AI_USAGE_DECLARATION.md`.
